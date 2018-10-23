@@ -4,7 +4,8 @@
     <header class="header"
             flex="dir:left">
       <img class="logo"
-           src="http://17dy.vip/template/mac_km/images/logo.jpg" alt="">
+           style="width: 240px"
+           src="~@/assets/img/logo.png" alt="">
       <div class="menu"
            flex="dir:left">
         <div flex-box="1"
