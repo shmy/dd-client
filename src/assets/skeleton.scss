@@ -1,0 +1,42 @@
+$skeleton-background-color: #ddd;
+
+@keyframes fadeInOutIn {
+  0% {
+    opacity: .3;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: .3;
+  }
+}
+
+.skeleton-animation {
+  opacity: .3;
+  animation: fadeInOutIn 2s infinite;
+}
+.skeleton-background {
+  background-color: $skeleton-background-color !important;
+}
+
+// 首页
+.index-skeleton {
+  .skeleton-title {
+    height: 41px;
+    width: 150px;
+    margin: 0 0 0 10px;
+    background-color: $skeleton-background-color;
+    border-radius: 4px;
+  }
+}
+.detail-skeleton {
+  padding-bottom: 10px;
+  .skeleton-title {
+    height: 41px;
+    width: 150px;
+    margin-top: 15px;
+    background-color: $skeleton-background-color;
+    border-radius: 4px;
+  }
+}
