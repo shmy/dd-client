@@ -78,6 +78,13 @@
       DdPaging,
     },
     created() {
+      // if (window.__PRERENDER_INJECTED && window.__PRERENDER_INJECTED.isPrerender) {
+      //   this.loading = true;
+      //   this.$nextTick(() => {
+      //     document.dispatchEvent(new Event('render-event'));
+      //   });
+      //   return;
+      // }
       this.initSearch();
     },
     methods: {
