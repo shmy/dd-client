@@ -1,6 +1,7 @@
 @import "./skeleton.scss";
 @import "./help.scss";
 @import "./theme/index.scss";
+
 html, body, #app {
   height: 100%;
   width: 100%;
@@ -9,4 +10,7 @@ html, body, #app {
   overflow: hidden;
   -webkit-tap-highlight-color: transparent;
   font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.xgplayer-inactive .xgplayer-controls, .xgplayer-is-live .xgplayer-controls>* {
+  display: flex !important;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
   <head>
     <meta charset="utf-8">
     <% if (process.env.NODE_ENV === 'production') { %>
@@ -54,7 +54,8 @@
     </script>
     <% } %>
 
-    <script src="<%= BASE_URL %>js/hls.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/xgplayer@1.1.4-beta.3/browser/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/xgplayer-hls.js/browser/index.js"></script>
     <script>
       var VUE_APP_API_URI = "<%= VUE_APP_API_URI %>";
     </script>

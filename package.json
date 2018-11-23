@@ -15,17 +15,18 @@
     "lodash": "^4.17.11",
     "normalize.css": "^8.0.0",
     "nprogress": "^0.2.0",
+    "sal.js": "^0.5.0",
     "vue": "^2.5.17",
     "vue-click-outside": "^1.0.7",
     "vue-lazyload": "^1.2.6",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "xgplayer": "^1.1.4-beta.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
     "node-sass": "^4.9.4",
-    "prerender-spa-plugin": "^3.4.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
   },

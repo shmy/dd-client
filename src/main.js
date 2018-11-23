@@ -8,6 +8,7 @@ import "flex.css";
 import "nprogress/nprogress.css";
 import "dplayer/dist/DPlayer.min.css";
 import "@/assets/style.scss";
+import 'sal.js/dist/sal.css';
 
 Vue.config.productionTip = false;
 Vue.use(axios);
