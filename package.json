@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve --open",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && node minifier.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -26,9 +26,11 @@
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
+    "html-minifier": "^3.5.21",
     "node-sass": "^4.9.4",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "workbox-webpack-plugin": "^3.6.3"
   },
   "eslintConfig": {
     "root": true,
