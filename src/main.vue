@@ -1,6 +1,5 @@
 <template>
   <div @scroll="handleScroll($event)"
-       data-sal="flip-up"
        class="container">
     <dd-header :is-hidden="isHidden"
                :menus="menus" />
@@ -9,7 +8,7 @@
   </div>
 </template>
 <script>
-import sal from "sal.js";
+// import sal from "sal.js";
 import DdHeader from "@/components/dd-header";
 import DdFooter from "@/components/dd-footer";
 import Hub from "@/plugins/hub";
@@ -45,8 +44,8 @@ export default {
         : requestAnimationFrame(fn);
     }
   },
-  mounted() {
-    sal();
-  }
+  // mounted() {
+  //   sal();
+  // }
 };
 </script>

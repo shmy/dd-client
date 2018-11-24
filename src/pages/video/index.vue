@@ -83,6 +83,7 @@ export default {
         url,
         autoplay: true,
         playsinline: true,
+        poster: this.detail.thumbnail,
         width: "100%",
         height: "100%",
         playbackRate: [0.5, 0.75, 1, 1.5, 2],
@@ -91,7 +92,22 @@ export default {
         keyShortcut: "on",
         controls: true,
         "x5-video-player-type": "h5",
-        "x5-video-player-fullscreen": true
+        "x5-video-player-fullscreen": true,
+        enterLogo: {
+          //视频加载页logo
+          url: require("@/assets/img/logo.png"),
+          width: 231,
+          height: 60
+        },
+        // enterBg: {
+          //视频加载页背景
+          // color: "rgba(0,0,0,0.87)"
+        // },
+        enterTips: {
+          //视频加载页加载特效
+          background:
+            "linear-gradient(to right, rgba(0,0,0,0.87), #3D96FD, rgba(86,195,248), #3D96FD, rgba(0,0,0,0.87))"
+        }
       });
     },
     handlePlay(url, index) {
