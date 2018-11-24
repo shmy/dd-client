@@ -65,7 +65,7 @@
         this.showPanel = false;
       },
       handleItemClick(id) {
-        this.$router.push(`/video/${id}`);
+        this.$jump(`/video/${id}`);
         this.closePanel();
       },
       hide() {

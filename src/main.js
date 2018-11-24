@@ -17,7 +17,10 @@ Vue.use(VueLazyload, {
   error: require("@/assets/img/failed.svg"),
   loading: require("@/assets/img/loading.svg"),
   attempt: 1
-})
+});
+Vue.prototype.$jump = url => {
+  window.open(url);
+};
 new Vue({
   render: h => h(App),
   router,

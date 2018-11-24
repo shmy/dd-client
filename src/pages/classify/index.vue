@@ -20,7 +20,7 @@
             flex="dir:left">
           <li v-for="item of items"
               :key="item._id"
-              @click="$router.push(`/video/${item._id}`)"
+              @click="$jump(`/video/${item._id}`)"
               class="video-item">
             <div class="video-content">
               <img v-lazy="item.thumbnail"
