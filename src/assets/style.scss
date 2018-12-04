@@ -14,3 +14,42 @@ html, body, #app {
 .xgplayer-inactive .xgplayer-controls, .xgplayer-is-live .xgplayer-controls>* {
   display: flex !important;
 }
+.pressureScreen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 2000;
+  .redpack-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 330px;
+    width: 260px;
+    margin-top: -200px;
+    margin-left: -130px;
+    background-color: #4858E6;
+    background-image: linear-gradient(170deg, #3E7BF3, #4858E6); 
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    // justify-content: center;
+    align-items: center;
+    .title {
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+    }
+    .redpack {
+      // margin-top: 20px;
+      height: 240px;
+      width: 240px;
+    }
+    .save {
+      margin-top: 10px;
+      color: orange;
+    }
+  }
+}
