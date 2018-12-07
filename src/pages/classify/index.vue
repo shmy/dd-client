@@ -116,6 +116,7 @@
         this.paging.per_page = data.per_page;
         this.total = data.total;
         this.items = data.result;
+        this.scrollReveal();
       },
       handleFilterbarChange() {
         this.paging.page = 1;

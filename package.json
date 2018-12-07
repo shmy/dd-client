@@ -16,6 +16,7 @@
     "normalize.css": "^8.0.0",
     "nprogress": "^0.2.0",
     "sal.js": "^0.5.0",
+    "scrollreveal": "^4.0.5",
     "vue": "^2.5.17",
     "vue-click-outside": "^1.0.7",
     "vue-lazyload": "^1.2.6",
